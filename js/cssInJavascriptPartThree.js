@@ -9,6 +9,7 @@ function handleTitleClick() {
     //     title.classList.add(clickedClass);
     // }
     title.classList.toggle(clickedClass);
+    // classList.toggle을 사용하면 클래스가 있으면 클래스를 제거하고 없으면 추가한다.
 }
 
 title.onclick = handleTitleClick;
