@@ -43,7 +43,6 @@ function handleToDoSubmit(event) {
 // function sayHello(item) {
 //     console.log('This is the turn of', item);
 // }
-
 toDoForm.addEventListener("submit", handleToDoSubmit);
 const savedToDos = localStorage.getItem(TODOS_KEY);
 
