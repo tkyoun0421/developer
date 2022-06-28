@@ -1,9 +1,12 @@
 const a = 5;
 const b = 2;
 
-const myName = "nico";
+let myName = "nico";
 
 console.log(a + b);
 console.log(a * b);
 console.log(a / b);
-console.log("Hello" + myName);
+console.log("Hello " + myName);
+
+myName = "nicolas";
+console.log("Your name is " + myName);
