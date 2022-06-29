@@ -1,6 +1,7 @@
-const amIFat = true;
-let something;
-console.log(something, amIFat);
+const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
 
-// undefined = 정의되어 있지 않다
-// null = 값이 비어있다.
+console.log(daysOfWeek);
+
+daysOfWeek.push("sun");
+
+console.log(daysOfWeek);
