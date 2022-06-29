@@ -1,12 +1,6 @@
-const a = 5;
-const b = 2;
+const amIFat = true;
+let something;
+console.log(something, amIFat);
 
-let myName = "nico";
-
-console.log(a + b);
-console.log(a * b);
-console.log(a / b);
-console.log("Hello " + myName);
-
-myName = "nicolas";
-console.log("Your name is " + myName);
+// undefined = 정의되어 있지 않다
+// null = 값이 비어있다.
