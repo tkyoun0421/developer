@@ -5,3 +5,4 @@ console.log(daysOfWeek);
 daysOfWeek.push("sun");
 
 console.log(daysOfWeek);
+console.log(daysOfWeek[0]);
