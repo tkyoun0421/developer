@@ -1,8 +1,9 @@
-const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
+const player = {
+    name: "nico",
+    points: 10,
+    fat: true,
+}
 
-console.log(daysOfWeek);
-
-daysOfWeek.push("sun");
-
-console.log(daysOfWeek);
-console.log(daysOfWeek[0]);
+console.log(player);
+player.fat = false;
+console.log(player);
